@@ -13,7 +13,6 @@ import ru.itmentor.spring.boot_security.demo.service.UserServiceImp;
 @RequestMapping("/user")
 public class UserController {
 
-    @Autowired
     private UserServiceImp userService;
 
     public UserController(UserServiceImp userService) {
