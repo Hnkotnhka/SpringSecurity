@@ -11,7 +11,6 @@ import ru.itmentor.spring.boot_security.demo.service.UserService;
 @RequestMapping("/admin")
 public class AdminController {
 
-    @Autowired
     private final UserService service;
 
     public AdminController (UserService service) {
